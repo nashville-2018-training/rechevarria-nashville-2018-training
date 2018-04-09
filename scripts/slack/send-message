@@ -33,3 +33,4 @@ SLACK_MESSAGE="The commit \`${COMMIT_MESSAGE}\` by \`${CIRCLE_USERNAME}\` on bra
 echo -e "\nSending a message to the ${SLACK_CHANNEL} Slack channel..."
 
 curl -X POST --data "payload={\"channel\": \"${SLACK_CHANNEL}\", \"icon_url\": \"${SLACK_ICON_URL}\", \"username\": \"${SLACK_USERNAME}\", \"text\": \"${SLACK_MESSAGE}\"}" $SLACK_HOOK_URL
+
