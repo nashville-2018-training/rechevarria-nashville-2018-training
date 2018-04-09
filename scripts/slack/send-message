@@ -38,5 +38,3 @@ curl -X POST --data "payload={\"channel\": \"${SLACK_CHANNEL}\",
 \"icon_url\": \"${SLACK_ICON_URL}\", \"username\":
 \"${SLACK_USERNAME}\", \"text\": \"${SLACK_MESSAGE}\"}"
 $SLACK_HOOK_URL
-
-
