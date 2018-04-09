@@ -1,0 +1,14 @@
+uuid: 55c463f0-49f8-4c97-b721-93311c4fc925
+name: rechevarria-nashville-2018-training
+mail: rechevarria@aha.org
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
